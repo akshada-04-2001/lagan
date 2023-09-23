@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+	 <style>
+         		.nav{
+         			
+         			height: 70px;
+         			width: 100%;
+         			background-color: olive;
+         		}
+
+         		.box
+         		{
+         			height: 40px;
+         			width: 100px;
+         			background-color: darkkhaki;
+         			border-radius: 10px;
+         			padding-top: 10px;
+         			box-shadow: 5px 5px 5px 5px black;
+                  
+         		}
+           * {box-sizing:border-box}
+
+             
+               .slideshow-container {
+                 width: 100%;
+                 position: relative;
+                 margin: auto;
+                  
+               }
+
+              
+               .mySlides {
+                 display: none;
+                 
+               }
+
+              
+               .prev, .next {
+                 cursor: pointer;
+                 position: absolute;
+                 top: 50%;
+                 width: auto;
+                 margin-top: -22px;
+                 padding: 16px;
+                 color: white;
+                 font-weight: bold;
+                 font-size: 18px;
+                 transition: 0.6s ease;
+                 border-radius: 0 3px 3px 0;
+                 user-select: none;
+               }
+
+              
+               .next {
+                 right: 0;
+                 border-radius: 3px 0 0 3px;
+               }
+
+               
+               .prev:hover, .next:hover {
+                 background-color: rgba(0,0,0,0.8);
+                }
+               .fade {
+                 animation-name: fade;
+                 animation-duration: 1.5s;
+                 animation-fill-mode: forwards;
+
+               }
+
+               @keyframes fade {
+                 from {opacity: .4}
+                 to {opacity: 1}
+               }
+
+
+
+
+
+             .box2{
+               	height: 1500px;
+               	width: 100%;
+               	background-color: black;
+               }
+
+               .para{
+               	color: white;
+               	font-size: 30px;
+               	border-bottom: 2px dotted white;
+                  margin-left: 30px;
+                  margin-right: 30px;
+               }
+
+               .thumbnail{
+                  display: block;
+                  height: 270px;
+                  width: 200px;
+                  margin: 0 auto 0 auto;
+                  border: 2px solid white;
+                  border-radius: 20px;
+                  
+               }
+
+               .caption{
+                  color:#000;
+                  padding: 10px 10px 0px;
+                  font-size: 15px;
+                  height: 150px;
+                  width: 100px;
+
+               }
+
+               .overlay {
+             
+                  position: absolute;
+                  bottom: 0;
+                  background: rgb(0, 0, 0);
+                  background: rgba(0, 0, 0, 0.5);
+                  color: #f1f1f1;
+                  width: 220px;
+                  height: 100px;
+                  text-align: center;
+
+               }
+
+               .box3{
+               	margin-top: 150px;
+               }
+
+               .box4{
+                  margin-top: 150px;
+               }
+
+               
+
+               .footer{
+               
+                  height: 70px;
+                  width: 100%;
+                  background-color: darkkhaki;
+               }
+
+               ul{
+                  list-style-type: none;
+                  display: flex;
+                  align-items: center;
+               }
+
+               li{
+                  float: left;
+                  font: bold;
+                  padding: 12px 10px;
+                  text-align: center;
+                  margin-left: 10px;
+                  display: block;
+                  text-decoration: none;
+                }
+                .box12
+               {
+                  height: 40px;
+                  width: 100px;
+                  background-color: goldenrod;
+                  border-radius: 10px;
+                  padding-top: 10px;
+                  box-shadow: 5px 5px 5px 5px black;
+                  
+               }
+
+
+      
+      
+
+
+
+	</style>
+
+	<title></title>
+     
+	
+	
+</head>
+<body>
+	<div class="container-fluid">
+	     <div class="nav nav-justified" class="nav">
+		     <div id="123">
+			     <div id="btn1">
+                 <ul>
+			        <li> <div class="box">
+			          <center>
+			            <a href="lagan.html" style="text-decoration: none; color: black;"> <p>365</p>  </a>
+		             </center>
+		           </div>
+              </li>
+
+                 <div class="mwt">
+                
+
+                <li><a href="movies.html" style="text-decoration: none; color: black;">Movies </a></li>
+                <li><a href="#" style="text-decoration: none; color: black;">  Web Series </a> </li> 
+                <li><a href="#" style="text-decoration: none; color: black;"> TV Serials  </a></li>
+
+             </div>
+
+                 </ul>
+
+		          
+
+		        </div>
+              
+
+
+
+	        </div>
+	     </div> 
+       
+
+
+       <div class="slideshow-container">
+
+                       <!-- Full-width images with number and caption text -->
+                       <div class="mySlides fade">
+                         <div class="numbertext"></div>
+                         <img src="images\lagaanPoster.jpg" style="width:100%; height: 600px;">
+                        
+                       </div>
+
+                       <div class="mySlides fade">
+                         <div class="numbertext"></div>
+                         <img src="images/img2.jpg" style="width:100%; height: 600px;">
+                        
+                       </div>
+
+                       <div class="mySlides fade">
+                         <div class="numbertext"></div>
+                         <img src="images/img3.jpg" style="width:100%; height: 600px;">
+                        
+                       </div>
+                       <div class="mySlides fade">
+                         <div class="numbertext"></div>
+                         <img src="images/img4.jpg" style="width:100%; height: 600px;">
+                         
+                       </div>
+                        <div class="mySlides fade">
+                         <div class="numbertext"></div>
+                         <img src="images/img5.jpg" style="width:100%; height: 600px;">
+                        
+                       </div>
+
+                       <!-- Next and previous buttons -->
+                       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                     </div>
+                     <br>
+
+                     <!-- The dots/circles -->
+                     <div style="text-align:center">
+                       <span class="dot" onclick="currentSlide(1)"></span>
+                       <span class="dot" onclick="currentSlide(2)"></span>
+                       <span class="dot" onclick="currentSlide(3)"></span>
+                       <span class="dot" onclick="currentSlide(4)"></span>
+                       <span class="dot" onclick="currentSlide(5)"></span>
+                     </div>
+       	
+          <div class="box2">
+          	  <div >
+          	  	   
+          	  	   <p class="para">Popular in Action</p>
+                  
+          	  </div>
+          
+
+              <div>
+              	
+                        <div class ="row" id = "image">
+              <div class="col-md-2"><figure><img src="images/thelostcity.jpg"  class="thumbnail"></figure>
+              <div class="caption overlay">         <h5>THE LOST CITY</h5>
+                        <p>Thriller, Mystery & Comedy.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/RRR.jpg"  class="thumbnail">
+              <div class="caption overlay">         <h5>RRR</h5>
+                        <p>Action, Frienship and Tragedy Movie.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/movie3.jpg" class="thumbnail">
+              <div class="caption overlay">         <h5>SHIDDAT</h5>
+                        <p>Love Story,Romantic Movie</p>
+                    </div></div>
+               
+               <div class="col-md-2"><img src ="images/movie4.jpg"  class="thumbnail">
+                  <div class="caption overlay">         <h5>JAPANESE MARVEL</h5>
+                        <p>Full Action Movie.</p>
+                    </div></div>
+
+
+                    <div class="col-md-2"><img src ="images/movie5.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>DOCTOR STRANGE</h5>
+                        <p> a Marvel Comics Superhero Movie </p>
+                    </div></div>
+
+                     <div class="col-md-2"><img src ="images/movie6.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>BESIDENT EVIL</h5>
+                        <p> Horror Movie</p>
+                    </div></div>
+
+                  </div>
+
+                  
+
+
+
+                  
+          
+        
+            
+
+
+
+
+      
+
+
+       
+       	
+       	 
+          	  <div class="box3">
+          	  	   
+          	  	   <p class="para">Popular in Drama</p>
+                  
+          	  </div>
+          
+
+              <div >
+              	
+                        <div class ="row" id = "image">
+              <div class="col-md-2"><figure><img src="images/movie8.jpg"  class="thumbnail"></figure>
+              <div class="caption overlay">         <h5>BHOOL BHULAIYA 2</h5>
+                        <p>A Comedy & Horror Movie</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/movie9.jpg"  class="thumbnail">
+              <div class="caption overlay">         <h5>BLOWBACK</h5>
+                        <p>Dramatic Hollywood Movie</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/movie10.jpg" class="thumbnail">
+              <div class="caption overlay">         <h5>GULLY BOY</h5>
+                        <p>A Gully Boy Story</p>
+                    </div></div>
+               
+               <div class="col-md-2"><img src ="images/movie11.jpg"  class="thumbnail">
+                  <div class="caption overlay">         <h5>LAL SINGH CHADDHA</h5>
+                        <p>  Movie</p>
+                    </div></div>
+
+
+                    <div class="col-md-2"><img src ="images/movie12.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>BAJIROA MASTANI</h5>
+                        <p> A Historical & Love Story </p>
+                    </div></div>
+
+                     <div class="col-md-2"><img src ="images/movie13.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>KABIR SINGH</h5>
+                        <p> A Romantic Love Story</p>
+                    </div></div>
+
+                  </div>
+
+
+           </div>
+           </div>
+        
+
+           <div class="box4">
+                  
+                  <p class="para">Popular in Sci-Fi</p>
+                  
+              </div>
+          
+
+              <div >
+               
+                        <div class ="row" id = "image">
+              <div class="col-md-2"><figure><img src="images/movie14.jpg"  class="thumbnail"></figure>
+              <div class="caption overlay">         <h5>Red Wars</h5>
+                        <p>Chinese crime thriller.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/movie15.jpg"  class="thumbnail">
+              <div class="caption overlay">         <h5>Florida</h5>
+                        <p>Documentary eastern eravel.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/movie16.jpg" class="thumbnail">
+              <div class="caption overlay">         <h5>That Thing</h5>
+                        <p>Thriller Romance Drama film.</p>
+                    </div></div>
+               
+               <div class="col-md-2"><img src ="images/movie17.jpg"  class="thumbnail">
+                  <div class="caption overlay">         <h5>First Five</h5>
+                        <p> South Korean Entertainment.</p>
+                    </div></div>
+
+
+                    <div class="col-md-2"><img src ="images/movie18.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>Shrooms</h5>
+                        <p> A Marvel Comics superhero team </p>
+                    </div></div>
+
+                     <div class="col-md-2"><img src ="images/movie19.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>Superman</h5>
+                        <p> Indian comedy & Romance.</p>
+                    </div></div>
+
+                  </div>
+
+
+           </div>
+      </div>
+      
+
+
+
+    <div class="footer">
+          
+              <div>
+                 <ul>
+                 <li> <div class="box12">
+                   <center>
+                      <p>365</p>
+                   </center>
+                 </div>
+              </li>
+
+                 <div>
+                
+
+                <li>Powered by 365 Entertainment Portal 2022. All Rights Reserved</li>
+                
+
+             </div>
+
+                 </ul>
+
+                
+
+              </div>
+              
+
+
+
+          
+        </div> 
+        
+
+      </div>
+
+
+      </body>  
+  
+ 
+
+
+
+
+</html>
+
+
+
+        <script>
+                  let slideIndex = 1;
+               showSlides(slideIndex);
+
+               // Next/previous controls
+               function plusSlides(n) {
+                 showSlides(slideIndex += n);
+               }
+
+               // Thumbnail image controls
+               function currentSlide(n) {
+                 showSlides(slideIndex = n);
+               }
+
+               function showSlides(n) {
+                 let i;
+                 let slides = document.getElementsByClassName("mySlides");
+                 let dots = document.getElementsByClassName("dot");
+                 if (n > slides.length) {slideIndex = 1}
+                 if (n < 1) {slideIndex = slides.length}
+                 for (i = 0; i < slides.length; i++) {
+                   slides[i].style.display = "";
+                 }
+                 for (i = 0; i < dots.length; i++) {
+                   dots[i].className = dots[i].className.replace(" active", "");
+                 }
+                 slides[slideIndex-1].style.display = "block";
+                 dots[slideIndex-1].className += " active";
+               }
+         </script>
