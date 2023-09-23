@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://localhost/SAFAR%20project/travel.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href="./animation poster_files/travel_info.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+     
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./animation poster_files/refundstyle.css">
+  <link rel="stylesheet" type="text/css" href="./animation poster_files/signinstyle.css">
+  <script>
+	
+	$(window, document, undefined).ready(function() {
+
+  $('.input').blur(function() {
+    var $this = $(this);
+    if ($this.val())
+      $this.addClass('used');
+    else
+      $this.removeClass('used');
+  });
+  
+  });
+
+
+$('#tab1').on('click' , function(){
+    $('#tab1').addClass('login-shadow');
+   $('#tab2').removeClass('signup-shadow');
+});
+
+$('#tab2').on('click' , function(){
+    $('#tab2').addClass('signup-shadow');
+   $('#tab1').removeClass('login-shadow');
+
+
+});
+</script>
+
+  <style>
+  	#demo{
+  		
+	    height: 700px; 
+  		background-image:url(img11.jpg);
+	    background-size:cover;
+	    background-repeat: no-repeat;
+	
+  	}
+  	#navi{
+  		color: black;
+  		font-weight: bold;
+  		font-family: arial;
+  	}
+  	#navi:hover{
+  		color: #691531;
+  	}
+
+  	#imgnav{
+  		width:130px;
+  		height:80px;
+  		border-radius: 10px;
+  		padding-top: 10px;
+
+  	}
+  	#list{
+         font-weight: bold;
+         color: #1e164f;
+         align-content: center;
+  	}
+
+    #nav{
+  color: #fff;
+  margin-left: 150px;
+  padding-left:60px;
+  padding-top: 30px
+} 
+#nav:hover{
+  color:#0cedcb;
+
+}
+#read:hover{
+  color:#0cedcb;
+  	
+
+  	
+  </style>
+	
+	<title>Travel Information</title>
+</head>
+<body>
+<div class="content">
+       <div class="banner-image">
+           <div class="inner-banner-image">
+           <div class="row" id="demo" style="padding-top: 20px">
+      	<div class="col-md-2">
+			<h3 style="color: white">SAFAR</h3>
+      <a href="http://localhost/SAFAR%20project/homepage.php" style="background-color: black;color:white;padding:12px;border-radius:5px;text-decoration: none"><i class="fa fa-arrow-left"></i>Back</a>
+    </div>
+
+
+    <div class="col-md-6">
+            <ul class="nav nav-tabs justified" id="nav"> 
+                <li class="nav-item dropdown"> <a href="http://localhost/SAFAR%20project/travel.html#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navi" style="color:white;"><i class="fa fa-child" style="color:white;"></i> Things to do </a>
+                <div class="dropdown-menu">
+                <a href="http://localhost/SAFAR%20project/beach.html" class="dropdown-item" id="list"><img src="./animation poster_files/beach.jpg" id="imgnav">Beach Holiday </a>
+                <a href="http://localhost/SAFAR%20project/culture.html" class="dropdown-item" id="list"><img src="./animation poster_files/images (3).jpg" id="imgnav">Culture Enthusiasts</a>
+                <a href="http://localhost/SAFAR%20project/adventure.html" class="dropdown-item" id="list"><img src="./animation poster_files/download.jpg" id="imgnav">Adventues</a>
+                <a href="http://localhost/SAFAR%20project/popular.html" class="dropdown-item" id="list"><img src="./animation poster_files/india-top-attractions-taj-mahal.jpg" id="imgnav">Popular attractions</a>
+                <a href="http://localhost/SAFAR%20project/travel.html#" class="dropdown-item" id="list"><img src="./animation poster_files/ski-dubai.jpg" id="imgnav">Family fun</a>
+            </div> </li>
+                <li class="nav-item dropdown"> <a href="http://localhost/SAFAR%20project/travel.html#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navi" style="color:white;"><i class="fa fa-suitcase" style="color:white;"></i> Plan your trip </a>
+                <div class="dropdown-menu">
+                <a href="http://localhost/SAFAR%20project/travel.html" class="dropdown-item" id="list"><img src="./animation poster_files/CUSTOMER-INFORMATION-TRAVEL-CRM-370x250.jpg" id="imgnav">Travel information </a>
+                <a href="http://localhost/SAFAR%20project/airport.html" class="dropdown-item" id="list"><img src="./animation poster_files/Airport-Lounge-Access-Credit-Card-768x511.jpg" id="imgnav">Airpot access</a>
+                <a href="http://localhost/SAFAR%20project/accomodation.html" class="dropdown-item" id="list"><img src="./animation poster_files/download (1).jpg" id="imgnav">Accomodation</a>
+                <a href="http://localhost/SAFAR%20project/visa.html" class="dropdown-item" id="list"><img src="./animation poster_files/passport-american-flag-3730.jpg" id="imgnav">Visas</a>
+                <a href="http://localhost/SAFAR%20project/weather.html" class="dropdown-item" id="list"><img src="./animation poster_files/11machin-illo-articleLarge-v3.jpg" id="imgnav">Weather</a>
+            </div>  </li>
+                <li class="nav-item"> <a href="http://localhost/SAFAR%20project/calender.html" class="nav-link" id="navi" style="color:white;"><i class="fa fa-calendar" style="color:white;"></i> Events Calender</a> </li>
+                
+            </ul>
+        </div> 
+
+                <div class="col-md-4">
+                <ul class="nav nav-tabs justified" id="nav"> 
+                <li class="nav-item dropdown"> <a href="http://localhost/SAFAR%20project/travel.html#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navi" style="color:white;"><i class="fa fa-user-circle-o" style="color:white;"></i> My account </a>
+                <div class="dropdown-menu">
+                    <a href="http://localhost/SAFAR%20project/SignIn.php" class="dropdown-item" data-toggle="modal" data-target=".log-sign"><i class="fa fa-plane" style="color: black">&nbsp; &nbsp; &nbsp; <font color="#1e164f" size="4px">Sign in</font></i></a>
+                <a href="http://localhost/SAFAR%20project/pay/bookflight.php" class="dropdown-item"> <i class="fa fa-address-book" style="color: black">&nbsp; &nbsp; &nbsp; <font color="#1e164f" size="4px">My booking</font></i></a>
+                <a href="http://localhost/SAFAR%20project/refund.php" class="dropdown-item" data-toggle="modal" data-target="#darkModalForm"> <i class="fa fa-star" style="color: black">&nbsp; &nbsp; &nbsp; <font color="#1e164f" size="4px">My refund</font></i></a>
+               </div> </li>
+       
+                <li class="nav-item"> <a href="http://localhost/SAFAR%20project/offer.html" class="nav-link" id="navi" style="color:white;"><i class="fa fa-gift" style="color:white;"></i> Offers </a> </li>
+                <li class="nav-item dropdown"> <a href="http://localhost/SAFAR%20project/travel.html#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navi" style="color:white;"><i class="fa fa-info-circle" style="color:white;"></i>Support</a>
+                <div class="dropdown-menu">
+                <a href="http://localhost/SAFAR%20project/travel.html#" class="dropdown-item" id="list"><i class="fa fa-phone" style="color: black">&nbsp; &nbsp; &nbsp; <font color="#1e164f" size="4px">Contact us</font></i></a>
+                <a href="http://localhost/SAFAR%20project/travel.html#" class="dropdown-item" id="list"><i class="fa fa-envelope" style="color: black">&nbsp; &nbsp; &nbsp; <font color="#1e164f" size="4px">Check your refund</font></i></a>
+                <a href="http://localhost/SAFAR%20project/travel.html#" class="dropdown-item" id="list"><i class="fa fa-registered" style="color: black">&nbsp; &nbsp; &nbsp; <font color="#1e164f" size="4px">Complete Booking</font></i></a>
+                <a href="http://localhost/SAFAR%20project/pay/pay123.php" class="dropdown-item" id="list"><i class="fa fa-credit-card" style="color: black">&nbsp; &nbsp; &nbsp; <font color="#1e164f" size="4px">Make a payment</font></i></a>
+                <a href="http://localhost/SAFAR%20project/travel.html#" class="dropdown-item" id="list"><i class="fa fa-money" style="color: black">&nbsp; &nbsp; &nbsp; <font color="#1e164f" size="4px">Flight cancellation charges</font></i></a>
+                </div> 
+                </li>                
+              </ul>
+          </div>
+      </div>
+      <br>
+      
+
+      <center>
+           <font size="80px" face="Bold Oblique"><p id="all">All About Travelling</p></font>
+      </center>
+      <br>
+      <hr>
+              <center>
+              <div class="banner_content">
+              <div class="container">
+              <div class="row">
+              <div class="col-md-3">
+              <br><br><br>
+              <h1>Best Places<br>to Visit</h1>
+                               <br><br><br><br>
+                               <p>Whilst the famous cities of London and Paris never really loose the crowds, here are a few trade-offs I am sure you will fall in love that are (nearly) free from selfie stick attacks and queues long enough to be a flight time during the offseason</p>
+              </div>
+              <div class="col-md-3 sak">
+              <img src="./animation poster_files/3.jpg" width="500px" height="600px">
+              </div>
+           </div>
+          </div>
+         <br><br><br><br>
+         <div class="container">
+          <div class="container">
+          <div class="accordion">
+          <div class="card">
+            <div class="card-header bg-primary text-light"><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse" style="color:white;">Rules:</a></div>
+          <div class="card-header bg-primary text-light"><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse" style="color:white;">Before you travel:</a></div>
+          <div class="card-body collapse" id="card1" dataa-parent="accordion">-Get tested with a viral test 1-3 days before your trip.</div>
+          <div class="card-header bg-primary text-light"><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse" style="color:white;">While you are traveling:</a></div>
+          <div class="card-body collapse" id="card1" dataa-parent="accordion">-Wearing a mask over your nose and mouth i requiredon planes, buses, trains, and other forms of public transportation traveling into, within, or out of the United States and while indoors at U.S. transportation hubs such as airports and stations. Travelers are not required to wear a mask in outdoor areas of a conveyance (like on open deck areas of a ferry or the uncovered top deck of a bus). CDC recommends that travelers who are not fully vaccinated continue to wear a mask and maintain physical distance when traveling.<br>
+          - Avoid crowds and stay at least 6 feet/2 meters (about 2 arm lengths) from anyone who is not traveling with you.<br>
+          - Wash your hands often or use hand sanitizer (with at least 60% alcohol).</div>
+          <div class="card-header bg-primary text-light"><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse" style="color:white;">After you travel:</a></div>
+          <div class="card-body collapse" id="card1" dataa-parent="accordion">
+            - Get tested with a viral test 3-5 days after travel AND stay home and self-quarantine for a full 7 days after travel.<br>
+          - Even if you test negative, stay home and self-quarantine for the full 7 days.<br>
+          - If your test is positive, isolate yourself to protect others from getting infected.<br>
+          - If you don’t get tested, stay home and self-quarantine for 10 days after travel.<br>
+          - Avoid being around people who are at increased risk for severe illness for 14 days, whether you get tested or not.<br>
+          - Self-monitor for COVID-19 symptoms; isolate and get tested if you develop symptoms.<br>
+          - Follow all state and local recommendations or requirements.<br><br>
+          - Visit your state, territorial, tribal or localexternal icon health department’s website to look for the latest information on where to get tested.</div>
+          <div class="card-header bg-primary text-light"><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse">
+          </a></div><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse">
+          </a></div><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse">
+          </a></div><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse">  
+          <br><br><br>
+         <div class="conatiner-fluid">
+           <div class="row" id="image">
+              <div class="col-md-4"><figure><img src="./animation poster_files/france.jpg" height="400px" width="350px" class="thumbnail"></figure>
+              <div class="caption overlay">         <h2>France</h2>
+                        <p>France, country of northwestern Europe. Historically and culturally<br>among the most important nations in the Western world</p>
+                    </div></div>
+
+
+              <div class="col-md-4"><img src="./animation poster_files/china.jpg" height="400px" width="350px" class="thumbnail">
+              <div class="caption overlay">         <h2>China</h2>
+                        <p>China, country of East Asia that is the largest of all Asian countries and has the largest population of any country in the world.</p>
+                    </div></div>
+
+
+              <div class="col-md-4"><img src="./animation poster_files/spain.jpg" height="400px" width="350px" class="thumbnail">
+              <div class="caption overlay">         <h2>Spain</h2>
+                        <p> Spain is a storied country of stone castles, snowcapped mountains, vast monuments, and sophisticated cities.</p>
+                    </div></div>
+
+
+           </div><br><br>
+           <div class="row" id="image">
+              <div class="col-md-4"><img src="./animation poster_files/malaysia.jpg" height="400px" width="350px" class="thumbnail">
+              <div class="caption overlay">         <h2>Malaysia</h2>
+                        <p>Malaysia, country of Southeast Asia, lying just north of the Equator, that is composed of two noncontiguous regions.</p>
+                    </div></div>
+
+
+              <div class="col-md-4"><img src="./animation poster_files/america.jpg" height="400px" width="350px" class="thumbnail">
+              <div class="caption overlay">         <h2>America</h2>
+                        <p>The United States (U.S. or US), officially the United States of America (U.S.A. or USA) or America, is a country primarily located in North America.</p>
+                    </div></div>
+
+
+              <div class="col-md-4"><img src="./animation poster_files/thailand.jpg" height="400px" width="350px" class="thumbnail">
+              <div class="caption overlay">         <h2>Thailand</h2>
+                        <p>Thailand (Thai: ประเทศไทย), known formerly as Siam and officially as the Kingdom of Thailand ... Parliament was composed of all elected House and all appointed Senate.</p>
+                    </div></div>
+
+
+           </div><br><br>
+           <div class="row" id="image">
+              <div class="col-md-4"><img src="./animation poster_files/canada.jpg" height="400px" width="350px" class="thumbnail">
+              <div class="caption overlay">         <h2>Canada</h2>
+                        <p>Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean</p>
+                    </div></div>
+
+
+              <div class="col-md-4"><img src="./animation poster_files/poland.jpg" height="400px" width="350px" class="thumbnail">
+              <div class="caption overlay">         <h2>Poland</h2>
+                        <p>Poland, country of central Europe. It is located at a geographic crossroads that links the forested lands of northwestern Europe to the sea .</p>
+                    </div></div>
+
+
+              <div class="col-md-4"><img src="./animation poster_files/india.jpg" height="400px" width="350px" class="thumbnail">
+              <div class="caption overlay">         <h2>India</h2>
+                        <p>India, officially the Republic of India (Hindi: Bhārat Gaṇarājya), is a country in South Asia. It is the seventh-largest country by area</p>
+                    </div></div>
+                  
+           </div>
+         </div>
+        </a></div><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse">
+     </a></div></div></center><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse">
+    </a></div><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse">
+  </a></div><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse">
+</a></div><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse">
+<!--footer-->
+</a><div class="row" style="background: black;width: 1550px;height: 150px"><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse">
+       
+       </a><ul class=" nav nav-tabs"><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse"> 
+        </a><li class="nav-item"><a href="http://localhost/SAFAR%20project/travel.html#card1" data-toggle="collapse"> </a><a href="http://localhost/SAFAR%20project/travel.html#" class="nav-link" id="nav">AboutUs  </a> </li>
+        <li class="nav-item"> <a href="http://localhost/SAFAR%20project/travel.html#" class="nav-link" id="nav"> Terms &amp; Conditions </a> </li>
+        <li class="nav-item"> <a href="http://localhost/SAFAR%20project/travel.html#" class="nav-link" id="nav">Privacy Notice</a> </li>
+        <li class="nav-item"> <a href="http://localhost/SAFAR%20project/travel.html#" class="nav-link" id="nav">SAFAR Tourism </a> </li>
+      </ul>
+        <br>
+        <br>
+        <br>
+        <p style="font-weight: bold;color: white;padding-top: 50px;padding-right: 300px;font-size: 15px ;align-content:center;margin-left: 100px"> FOLLOW US ON</p>
+      <div class="row" style="width: 1400;height: 30px;background-color: black"></div>
+
+        <button type="submit" style="background-color: #1a498a;border-radius: 20px;width: 40px;height: 40px"><i class="fa fa-facebook" style="color: white"></i></button>
+        <button type="submit" style="background-color: #24b8e0;border-radius: 20px;width: 40px;height: 40px"><i class="fa fa-twitter" style="color: white"></i></button>
+        <button type="submit" style="background-color: #9c3838;border-radius: 20px;width: 40px;height: 40px"><i class="fa fa-google" style="color: white"></i></button>
+        <button type="submit" style="background-color: #de107a;border-radius: 20px;width: 40px;height: 40px"><i class="fa fa-instagram" style="color: white"></i></button>
+
+    </div>
+
+      </body></html>
