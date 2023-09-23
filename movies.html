@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+	<meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+
+
+	<meta charset="utf-8">
+	<title></title>
+
+
+	<style>
+		         .nav{
+                  
+                  height: 70px;
+                  width: 100%;
+                  background-color: olive;
+               }
+
+               .box
+               {
+                  height: 40px;
+                  width: 100px;
+                  background-color: darkkhaki;
+                  border-radius: 10px;
+                  padding-top: 10px;
+                  box-shadow: 5px 5px 5px 5px black;
+                  
+               }
+
+               ul{
+                  list-style-type: none;
+                  display: flex;
+                  align-items: center;
+               }
+
+               li{
+                  float: left;
+                  font: bold;
+                  padding: 12px 10px;
+                  text-align: center;
+                  margin-left: 10px;
+                  display: block;
+                  text-decoration: none;
+                }
+
+
+
+
+                 * {box-sizing:border-box}
+
+             
+               .slideshow-container {
+                 width: 100%;
+                 position: relative;
+                 margin: auto;
+                  
+               }
+
+              
+               .mySlides {
+                 display: none;
+                 
+               }
+
+              
+               .prev, .next {
+                 cursor: pointer;
+                 position: absolute;
+                 top: 50%;
+                 width: auto;
+                 margin-top: -22px;
+                 padding: 16px;
+                 color: white;
+                 font-weight: bold;
+                 font-size: 18px;
+                 transition: 0.6s ease;
+                 border-radius: 0 3px 3px 0;
+                 user-select: none;
+               }
+
+              
+               .next {
+                 right: 0;
+                 border-radius: 3px 0 0 3px;
+               }
+
+               
+               .prev:hover, .next:hover {
+                 background-color: rgba(0,0,0,0.8);
+                }
+               .fade {
+                 animation-name: fade;
+                 animation-duration: 1.5s;
+                 animation-fill-mode: forwards;
+
+               }
+
+               @keyframes fade {
+                 from {opacity: .4}
+                 to {opacity: 1}
+               }
+
+
+
+                .box12
+               {
+                  height: 40px;
+                  width: 100px;
+                  background-color: goldenrod;
+                  border-radius: 10px;
+                  padding-top: 10px;
+                  box-shadow: 5px 5px 5px 5px black;
+                  
+               }
+
+
+
+		
+
+        .box2{
+        	height: 1500px;
+        	width: 100%;
+        	background-color: black;
+         margin-top: -24px;
+        }
+
+        .btn{
+        	background-color: yellow;
+        	margin-left: 25px;
+        	width: 157px;
+         margin-top: 7px;
+        }
+        .dropdown-menu {
+    	    
+    		text-align: center;
+    	}
+    	.dropdown-item:hover{
+    		background-color: yellow;
+    	}
+
+    	.search{
+    		margin-left: 300px;
+    		margin-top: -35px;
+    		background-color: yellow;
+         border:.2rem solid #666;
+         width: 60%;
+        
+
+    	}
+    	#search{
+        height: 2rem;
+        width: 50rem;
+       
+        border: none;
+        font-size: 1.0rem;
+        text-align: center;
+      }
+      .thumbnail{
+         display: block;
+         height: 200px;
+         width: 170px;
+        
+         border: 2px solid white;
+        
+         
+      }
+      .caption{
+         color:#000;
+         padding: 10px 10px 0px;
+         font-size: 10px;
+         height: 150px;
+         width: 170px;
+        
+      }
+
+      .overlay {
+    
+         position: absolute;
+         bottom: 0;
+         background: rgb(0, 0, 0);
+         background: rgba(0, 0, 0, 0.5);
+         color: #f1f1f1;
+         width: 170px;
+         height: 100px;
+         text-align: center;
+         
+      }
+
+      .section{
+      	margin: 100px;
+
+      }
+      .footer{
+     
+        height: 70px;
+        width: 100%;
+        background-color: darkkhaki;
+     }
+       .box12
+               {
+                  height: 40px;
+                  width: 100px;
+                  background-color: goldenrod;
+                  border-radius: 10px;
+                  padding-top: 10px;
+                  box-shadow: 5px 5px 5px 5px black;
+                  
+               }
+
+
+
+     
+
+    </style>
+</head>
+<body>
+
+
+
+     <div class="container-fluid">
+	     <div class="nav nav-justified" class="nav">
+           <div id="123">
+              <div id="btn1">
+                 <ul>
+                 <li> <div class="box">
+                   <center>
+                     <a href="lagan.html" style="text-decoration: none; color: black;"> <p>365</p>  </a>
+                   </center>
+                 </div>
+              </li>
+
+                 <div class="mwt">
+                
+
+                 <li><a href="movies.html" style="text-decoration: none; color: black;">Movies </a></li>
+                <li><a href="#" style="text-decoration: none; color: black;">  Web Series </a> </li> 
+                <li><a href="#" style="text-decoration: none; color: black;"> TV Serials  </a></li>
+
+
+             </div>
+
+                 </ul>
+
+                
+
+              </div>
+              
+
+
+
+           </div>
+        </div> 
+       
+         <div>
+         	
+             
+            <div class="slideshow-container">
+
+                       <!-- Full-width images with number and caption text -->
+                       <div class="mySlides fade">
+                         <div class="numbertext"></div>
+                         <img src="images\abc1.jpg" style="width:100%; height: 600px;">
+                        
+                       </div>
+
+                       <div class="mySlides fade">
+                         <div class="numbertext"></div>
+                         <img src="images/abc2.jpg" style="width:100%; height: 600px;">
+                        
+                       </div>
+
+                       <div class="mySlides fade">
+                         <div class="numbertext"></div>
+                         <img src="images/abc3.jpg" style="width:100%; height: 600px;">
+                        
+                       </div>
+                       <div class="mySlides fade">
+                         <div class="numbertext"></div>
+                         <img src="images/abc4.jpg" style="width:100%; height: 600px;">
+                         
+                       </div>
+                        <div class="mySlides fade">
+                         <div class="numbertext"></div>
+                         <img src="images/abc5.jpg" style="width:100%; height: 600px;">
+                        
+                       </div>
+
+                       <!-- Next and previous buttons -->
+                       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                     </div>
+                     <br>
+
+                     <!-- The dots/circles -->
+                     <div style="text-align:center">
+                       <span class="dot" onclick="currentSlide(1)"></span>
+                       <span class="dot" onclick="currentSlide(2)"></span>
+                       <span class="dot" onclick="currentSlide(3)"></span>
+                       <span class="dot" onclick="currentSlide(4)"></span>
+                       <span class="dot" onclick="currentSlide(5)"></span>
+                     </div>
+         
+
+
+         </div>
+         <div class="box2">
+         	
+         	<div class="button">
+
+         		<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"> general </button>
+
+
+                   <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item"> All </a>
+                      <a href="#" class="dropdown-item"> Action </a>
+                      <a href="#" class="dropdown-item"> Drama </a>
+                      <a href="#" class="dropdown-item"> Sci-Fi </a>
+                      
+                   </div>
+
+
+         	</div>
+           
+
+         	<div class="search">
+         		
+                <form action="" >
+                   <input type="search" placeholder="search your favourite movie title" id="search" style="background-color: yellow;"> 
+                   <label for="search" class="fas fa-search"></label>
+                </form>
+
+         	</div>
+
+
+         	<div class="section">
+         		
+         		
+              	
+                        <div class ="row" id = "section1">
+              <div class="col-md-2"><figure><img src="images/nano1.jpg"  class="thumbnail"></figure>
+              <div class="caption overlay">         <h5>Haider</h5>
+                        <p>Indian crime tragedy film.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/nano2.jpg"  class="thumbnail">
+              <div class="caption overlay">         <h5>Dream 2</h5>
+                        <p>Thriller, Mystery & Comedy</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/nano3.jpg" class="thumbnail">
+              <div class="caption overlay">         <h5>Batman</h5>
+                        <p>A Marvel Comics superhero team.</p>
+                    </div></div>
+               
+               <div class="col-md-2"><img src ="images/nano4.jpg"  class="thumbnail">
+                  <div class="caption overlay">         <h5>Monster Manav</h5>
+                        <p>Japanese manga series written by Tsugumi.</p>
+                    </div></div>
+
+
+                    <div class="col-md-2"><img src ="images/nano5.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>Kill Bil</h5>
+                        <p> 2003 American martial arts film. </p>
+                    </div></div>
+
+                     <div class="col-md-2"><img src ="images/nano6.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>Rowdy</h5>
+                        <p> Indian action drama film.</p>
+                    </div></div>
+
+                  </div>
+
+
+
+
+                  <div class ="row" id = "image">
+              <div class="col-md-2"><figure><img src="images/nano7.jpg"  class="thumbnail"></figure>
+              <div class="caption overlay">         <h5>Agnipaath</h5>
+                        <p>Indian crime tragedy film.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/nano8.jpg"  class="thumbnail">
+              <div class="caption overlay">         <h5>Ankhein</h5>
+                        <p>Thriller, Mystery & Comedy</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/nano9.jpg" class="thumbnail">
+              <div class="caption overlay">         <h5>Guide</h5>
+                        <p>A Marvel Comics superhero team.</p>
+                    </div></div>
+               
+               <div class="col-md-2"><img src ="images/nano10.jpg"  class="thumbnail">
+                  <div class="caption overlay">         <h5>Deewar</h5> 
+                        <p>2016 â€§ Fantasy/Science Fiction</p>
+                    </div></div>
+
+
+                    <div class="col-md-2"><img src ="images/nano11.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>Sholay</h5>
+                        <p> A Marvel Comics superhero team. </p>
+                    </div></div>
+
+                     <div class="col-md-2"><img src ="images/nano12.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>K3G</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+                  </div>
+
+
+
+
+                   <div class ="row" id = "image">
+              <div class="col-md-2"><figure><img src="images/nano13.jpg"  class="thumbnail"></figure>
+              <div class="caption overlay">         <h5>Shaurya</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/nano14.jpg"  class="thumbnail">
+              <div class="caption overlay">         <h5>carouselCheeni Kam</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/nano15.jpg" class="thumbnail">
+              <div class="caption overlay">         <h5>carouselIshq Vishq</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+               
+               <div class="col-md-2"><img src ="images/nano16.jpg"  class="thumbnail">
+                  <div class="caption overlay">         <h5>carouselPadmaavat</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+
+                    <div class="col-md-2"><img src ="images/nano17.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>carouselKai Po Che</h5>
+                        <p>  A Marvel Comics superhero team. </p>
+                    </div></div>
+
+                     <div class="col-md-2"><img src ="images/nano18.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>Mummy</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+                  </div>
+
+
+
+
+                   <div class ="row" id = "image">
+              <div class="col-md-2"><figure><img src="images/nano19.jpg"  class="thumbnail"></figure>
+              <div class="caption overlay">         <h5>media carouselInterstellar</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/nano20.jpg"  class="thumbnail">
+              <div class="caption overlay">         <h5>carouselStar Wars</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/nano21.jpg" class="thumbnail">
+              <div class="caption overlay">         <h5>carouselThor</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+               
+               <div class="col-md-2"><img src ="images/nano22.jpg"  class="thumbnail">
+                  <div class="caption overlay">         <h5>carouselCaptain America</h5>
+                        <p> A Marvel Comics superhero team..</p>
+                    </div></div>
+
+
+                    <div class="col-md-2"><img src ="images/nano23.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>carouselX-Men</h5>
+                        <p>  A Marvel Comics superhero team. </p>
+                    </div></div>
+
+                     <div class="col-md-2"><img src ="images/nano24.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>carouselBlack Widow</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+                  </div>
+
+
+                   <div class ="row" id = "image">
+              <div class="col-md-2"><figure><img src="images/nano25.jpg"  class="thumbnail"></figure>
+              <div class="caption overlay">         <h5>carouselIron-Man</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/nano26.jpg"  class="thumbnail">
+              <div class="caption overlay">         <h5>carouselHulk</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/nano27.jpg" class="thumbnail">
+              <div class="caption overlay">         <h5>carouselCaptain Marvel</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+               
+               <div class="col-md-2"><img src ="images/nano28.jpg"  class="thumbnail">
+                  <div class="caption overlay">         <h5>carouselWonder Woman</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+
+                    <div class="col-md-2"><img src ="images/nano29.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>carouselBatwoman</h5>
+                        <p> a Marvel Comics Superhero team </p>
+                    </div></div>
+
+                     <div class="col-md-2"><img src ="images/nano30.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>carouselBatman</h5>
+                        <p>  A Marvel Comics superhero team.</p>
+                    </div></div>
+
+                  </div>
+
+
+                  <div class ="row" id = "image">
+              <div class="col-md-2"><figure><img src="images/nano31.jpg"  class="thumbnail"></figure>
+              <div class="caption overlay">         <h5>carouselSuperman</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/nano32.jpg"  class="thumbnail">
+              <div class="caption overlay">         <h5>carouselSuperwoman</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+
+              <div class="col-md-2"><img src ="images/nano33.jpg" class="thumbnail">
+              <div class="caption overlay">         <h5>carouselDoctor Strange</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+               
+               <div class="col-md-2"><img src ="images/nano34.jpg"  class="thumbnail">
+                  <div class="caption overlay">         <h5>carouselMars</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+
+                    <div class="col-md-2"><img src ="images/nano35.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>carouselGravity</h5>
+                        <p> a Marvel Comics Superhero team. </p>
+                    </div></div>
+
+                     <div class="col-md-2"><img src ="images/nano36.jpg"  class="thumbnail">
+                     <div class="caption overlay">         <h5>carouselMartian</h5>
+                        <p> A Marvel Comics superhero team.</p>
+                    </div></div>
+
+                  </div>
+
+                   
+           
+         	</div>
+
+         </div>
+             <div class="footer">
+          
+              <div>
+                 <ul>
+                 <li> <div class="box12">
+                   <center>
+                      <p>365</p>
+                   </center>
+                 </div>
+              </li>
+
+                 <div>
+                
+
+                <li>Powered by 365 Entertainment Portal 2022. All Rights Reserved</li>
+                
+
+             </div>
+
+                 </ul>
+
+                
+
+              </div>
+              
+
+
+
+          
+        </div> 
+        
+
+     </div>
+</body>
+
+
+</html>
+
+
+ <script>
+                  let slideIndex = 1;
+               showSlides(slideIndex);
+
+               // Next/previous controls
+               function plusSlides(n) {
+                 showSlides(slideIndex += n);
+               }
+
+               // Thumbnail image controls
+               function currentSlide(n) {
+                 showSlides(slideIndex = n);
+               }
+
+               function showSlides(n) {
+                 let i;
+                 let slides = document.getElementsByClassName("mySlides");
+                 let dots = document.getElementsByClassName("dot");
+                 if (n > slides.length) {slideIndex = 1}
+                 if (n < 1) {slideIndex = slides.length}
+                 for (i = 0; i < slides.length; i++) {
+                   slides[i].style.display = "";
+                 }
+                 for (i = 0; i < dots.length; i++) {
+                   dots[i].className = dots[i].className.replace(" active", "");
+                 }
+                 slides[slideIndex-1].style.display = "block";
+                 dots[slideIndex-1].className += " active";
+               }
+         </script>
+
+
